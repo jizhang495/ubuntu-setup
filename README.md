@@ -157,6 +157,16 @@ Use Inkscape for SVG figures and Blender for 3D apparatus renders. Keep color pr
 
 ## 11. Storage, syncing, and secrets
 
+OneDriver: file on demand, mounts as a virtual drive (recommended)
+
+```bash
+sudo add-apt-repository ppa:jstaf/onedriver
+sudo apt update
+sudo apt install onedriver
+```
+
+OneDrive (by abraunegg): Full Sync, downloads everything locally.
+
 ```bash
 sudo apt install -y onedrive
 onedrive --synchronize
